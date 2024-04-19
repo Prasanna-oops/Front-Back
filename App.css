@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, sans-serif;
+  background-image: url('C:\Front-Back\fun\src\pexels-yogendra-singh-1466852.jpg'); /* Replace with your image path */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  min-height: 100vh;
+  min-width: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index:1; /* Higher z-index for App.js background */
+}
+
+.rd {
+  font-size: 35px;
+  color: #ffffff;
+  padding: 12px;
+  width: 100%;
+  padding-top: 45px;
+  text-align: left; /* Align text to the left */
+  margin-bottom: 15px;
+  position: absolute; /* Position header text absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+
+  /* Animation properties */
+  animation-name: slideText;
+  animation-duration: 15s; /* Duration of the animation */
+  animation-iteration-count: infinite; /* Infinite loop */
+  animation-timing-function: linear; /* Linear timing function */
+}
+@keyframes slideText {
+  0% {
+    transform: translateX(0); /* Initial position */
+  }
+  100% {
+    transform: translateX(100%); /* Move to the right */
+  }
+}
+.header-text {
+  width: 100%;
+  height: 90px;
+  background-color: #000000;
+  padding: 17px;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  box-shadow: 0px 4px;
+  position: absolute; /* Position header text absolutely */
+  top: 0; /* Align to the top */
+  left: 0; /* Align to the left */
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background for header */
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  width: 100%;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+h2 {
+  margin-bottom: 20px;
+  color:greenyellow; /* White color for the heading */
+  background-color:darkgray;
+  text-align: center;
+}
+
+.signup-form {
+  width: 98%; /* Increase the form width */
+  width: 350px; /* Adjust the maximum width as needed */
+  margin: 20px auto;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.8);
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center; /* Center content horizontally */
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+label {
+  display: block;
+  margin-bottom: 8px;
+  font-weight: bold;
+}
+
+input[type='text'],
+input[type='number'],
+input[type='tel'],
+input[type='email'],
+input[type='password'] {
+  width: 95%;
+  width: 280px;
+  padding: 10px;
+  padding-left: 3px;
+  padding-right: 6px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+}
+
+button {
+  width: 50%;
+  margin-top: 20px; /* Add margin to the top of the button */
+  padding: 10px;
+  background-color: #007bff;
+  color: #ffffff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+.success-message {
+  margin-top: 20px;
+  padding: 20px;
+  background-color: rgba(40, 167, 69, 0.9); /* Semi-transparent background for success message */
+  color: #ffffff; /* White color for the success message text */
+  border-radius: 8px;
+  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
+}

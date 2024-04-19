@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/static/css/main.6b1297a0.css",
+    "main.js": "/static/js/main.93f816f1.js",
+    "static/media/pexels-yogendra-singh-1466852.jpg": "/static/media/pexels-yogendra-singh-1466852.f497358a81d69cca66f9.jpg",
+    "static/media/Untitled.png": "/static/media/Untitled.a7d554eb55d06ba3a1a5.png",
+    "index.html": "/index.html",
+    "main.6b1297a0.css.map": "/static/css/main.6b1297a0.css.map",
+    "main.93f816f1.js.map": "/static/js/main.93f816f1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.6b1297a0.css",
+    "static/js/main.93f816f1.js"
+  ]
+}
